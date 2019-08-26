@@ -1,29 +1,23 @@
 def addition(num1, num2)
-  print num1 + num2
-  return addition(num1, num2)
+  return num1 + num2
 end
 
 def subtraction(num1, num2)
-  puts num1 - num2
-  return subtraction(num1, num2)
+  return num1 - num2
 end
 
 def division(num1, num2)
-  puts num1 / num2
-  return division
+  return num1 / num2
 end 
 
 def multiplication(num1, num2)
-  puts num * num2
-  print multiplication
+  return num * num2
 end 
 
 def modulo(num1, num2)
- puts num1 % num2
- print modulo
+ return num1 % num2
 end
 
 def square_root(num)
-  puts num.sqrt
-  print square_root
+ return num.sqrt
 end
